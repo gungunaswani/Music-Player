@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.player-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(202, 39%, 49%);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e8e;
+}
+
+.music-info {
+    margin-top: 20px;
+}
+
+#song-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#artist {
+    font-size: 18px;
+    color: #666666;
+}
